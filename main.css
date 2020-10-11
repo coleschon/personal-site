@@ -1,0 +1,101 @@
+body {
+	color: rgba(0, 0, 0, 0.8);
+	font-family: -apple-system, Helvetica, arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.mono {
+	font-family: courier;
+}
+
+/* a */
+a {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: underline;
+}
+a:hover {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+}
+
+/* headers */
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+h1#name a {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+}
+
+/* index */
+#index {
+	max-width: 600px;
+	margin: 70px auto 100px auto;
+}
+
+/* about */
+#about {
+	margin-top: 30px;
+}
+
+/* publications */
+#publications {
+	margin-top: 30px;
+}
+#publications #paper a {
+	color: #2a7ae2;
+	text-decoration: none;
+}
+#publications #paper a:hover {
+	color: #111;
+    text-decoration: underline;
+}
+#publications #paper a:visited {
+	color: #1756a9;
+}
+
+/* ul */
+.section ul {
+	padding-left: 15px;
+}
+ul#links {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 15px 0 20px 0;
+	font-weight: bold;
+}
+ul#links li {
+	font-family: -apple-system, helvetica, arial, sans-serif;
+	display: inline;
+	margin-right: 20px;
+}
+ul#links li a {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+}
+ul#links li a:hover {
+	text-decoration: underline;
+}
+
+/* photo */
+#photo img {
+	width: 100%;
+}
+#photo #caption {
+	color: rgba(0, 0, 0, 0.5);
+	margin-top: 0;
+	font-size: 12px;
+	float: right;
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+	body {
+		margin: 0 7px 0 7px !important;
+	}
+}
